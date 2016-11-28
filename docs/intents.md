@@ -29,6 +29,7 @@ Implemented Intents:
         {
           "name": "ResultModification",
           "type": "AddOrSubtract"
+        },
         {
           "name": "ResultModifier",
           "type": "AMAZON.NUMBER"
@@ -42,6 +43,7 @@ Implemented Intents:
           "type": "AMAZON.NUMBER"
         }
       ]
+    },
     {
       "intent": "AMAZON.HelpIntent"
     },
@@ -53,4 +55,3 @@ Implemented Intents:
     }
   ]
 }
-
