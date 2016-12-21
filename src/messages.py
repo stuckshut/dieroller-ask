@@ -32,3 +32,4 @@ def get_end_response():
 
 def get_die_roll_response(result):
     return roll_response.format(**result)
+

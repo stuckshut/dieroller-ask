@@ -16,10 +16,10 @@ def sumdice(num, sides, drop=None, drop_num=0):
     if drop_num > num:
         return 0
     rolls = rolldice(num, sides)
-    if drop=='highest' and drop_num > 0:
+    if drop=='highest' and drop_num > 0 and drop_num < len(rolls):
         for _ in range(drop_num):
            rolls.remove(max(rolls))
-    elif drop=='lowest' and drop_num > 0:
+    elif drop=='lowest' and drop_num > 0 and drop_num < len(rolls):
         for _ in range(drop_num):
             rolls.remove(min(rolls))
 

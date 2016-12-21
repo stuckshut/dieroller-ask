@@ -21,3 +21,4 @@ def lambda_handler(event, context):
         handler = on_error
 
     return handler(request, session).to_dict()
+

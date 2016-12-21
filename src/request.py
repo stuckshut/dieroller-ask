@@ -20,3 +20,4 @@ class Session:
         self.applicationId = session['application']['applicationId']
         self.attributes = session.get('attributes', None)
         self.user = session.get('user', None)
+
