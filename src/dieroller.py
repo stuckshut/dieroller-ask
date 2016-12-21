@@ -34,3 +34,12 @@ def moddice(num, sides, mod='None', mod_num='0'):
         roll = roll - mod_num
 
     return roll
+
+
+def parse_simple():
+    return
+
+
+def parse_complex(dice_string):
+    return
+
